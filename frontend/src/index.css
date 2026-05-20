@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body.dark {
+    background-color: #121212;
+
+}
+
+body.dark table {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+body.dark input,
+body.dark select {
+    background-color: #2a2a2a;
+    color: white;
+    border: 1px solid #444;
+}
+
+body.dark button {
+    border: 1px solid #555;
+}
